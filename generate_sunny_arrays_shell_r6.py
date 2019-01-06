@@ -36,7 +36,7 @@ print('arguments: ',args)
 crop_size = args.crop_size
 crop_img = args.crop_img
 batch_size = args.batch_size
-
+# pre-process image with filter histogram equalization
 if args.heq:
     print('enter filter heq')
 HEQ = args.heq
